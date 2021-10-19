@@ -16,12 +16,12 @@ const NavBar = () => {
                         <Nav.Link>
                             <Link to={`/categories`}>Inicio</Link>
                         </Nav.Link>          
-                        <NavDropdown title="Productos" id="basic-nav-dropdown">
+                        <NavDropdown title="Categorias" id="basic-nav-dropdown">
                             <NavDropdown.Item>
-                                <Link to={`/page/Parlantes.jsx`}>Parlantes</Link>
+                                <Link to={`/categories/1`}>Parlantes</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to={`/page/Subwoofer.jsx`}>Subwoofer</Link>
+                                <Link to={`/categories/2`}>Subwoofer</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                         </NavDropdown>

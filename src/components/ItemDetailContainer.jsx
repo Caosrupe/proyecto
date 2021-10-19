@@ -11,7 +11,7 @@ const ItemDetailContainer = ({items}) => {
 
 
     const[producto,setProducto]=useState([])
-const {itemid}=useParams();
+    const {itemid}=useParams();
     useEffect(()=>{
 
 

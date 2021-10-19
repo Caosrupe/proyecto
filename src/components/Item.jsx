@@ -1,14 +1,17 @@
 import React from "react";
 import {Card} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
-const Item =({jsonpack})=>{
- const itemid=jsonpack.id;
 
-console.log(itemid);
 
-    return(
-      <div className="galeria">
-        <Card  className="Tarjeta">
+    const Item =({jsonpack})=>{
+    const itemid=jsonpack.id;
+
+      console.log(itemid);
+
+        return(
+          <>
+          <div className="galeria">
+            <Card  className="Tarjeta">
           <Card.Header>
             <Card.Img variant="top"src={jsonpack.pictureurl} />
           </Card.Header>
@@ -21,6 +24,7 @@ console.log(itemid);
           </Card.Body>
         </Card>
       </div>
+      </>
       );
 };
 

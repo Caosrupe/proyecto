@@ -5,14 +5,15 @@
         "description":"Parlantes de Auto con capacidad maxima de 200 watts con funcion Triaxial.",
         "price":65000,
         "categoryid":1,
-        "stock":12,
+        "stock":10,
         "pictureurl":"https://pioneer-latin.com/wp-content/uploads/2019/07/ts-f1634r_top-600x600.jpg"
     },
     {
 "id":"2",
     "title":"Parlante JBL Triaxial",
     "description":"Parlantes de Auto de 175 watts con funcion Triaxial.",
-    "price":55000,"categoryid":1,
+    "price":55000,
+    "categoryid":1,
     "stock":10,
     "pictureurl":"https://tecnocar.cl/image/cache/catalog/product/%20PARLANTES/JBL/GTO-629%20P-700x700.jpg"
     },

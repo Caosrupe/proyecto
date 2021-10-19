@@ -2,7 +2,7 @@ import React from "react";
 import {Button, ButtonGroup,Table} from 'react-bootstrap';
 
 
-const ItemCount=({min,max,onAdd,count,stock,product_name})=>{
+const ItemCount=({min,max,onAdd,count,product_name})=>{
   console.log(count);
     return (
   <>
